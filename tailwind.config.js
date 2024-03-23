@@ -42,6 +42,8 @@ export default {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
+        bebas: ['"Bebas Neue"', "cursive"],
+        quicksand: ["Quicksand", "sans-serif"],
       },
       letterSpacing: {
         tagline: ".15em",
