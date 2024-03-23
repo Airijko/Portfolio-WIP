@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import Home from "./Pages/Home";
 import MainNavbar from "./Components/MainNavbar";
 import Footer from "./Components/Footer";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
 
 import {
   BrowserRouter as Router,
   Route,
   Routes,
 } from "react-router-dom";
-
-import './App.css';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -30,6 +30,8 @@ function App() {
         <MainNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About/>} />
+          <Route path="/Projects" element={<Projects/>} />
         </Routes>
         <Footer />
       </div>

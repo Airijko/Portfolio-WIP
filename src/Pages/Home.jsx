@@ -1,12 +1,9 @@
-import Button from "react-bootstrap/Button";
-
-function Home() {
+const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <Button>LOL</Button>
-    </div>
+    <section>
+      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    </section>
   );
-}
+};
 
 export default Home;

@@ -1,6 +1,0 @@
-.background {
-  background: url(Assets/Images/Background.jfif);
-  height: 100vh;
-  filter: brightness(75%);
-  background-size: cover;
-}
