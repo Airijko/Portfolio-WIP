@@ -2,8 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-logo">
-        </div>
+        <div className="footer-logo"></div>
         <div className="footer-social">
           <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
             <i className="fab fa-facebook-f">test</i>
