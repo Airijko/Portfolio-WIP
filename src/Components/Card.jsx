@@ -1,10 +1,11 @@
 import React from "react";
 
-const Card = ({ name, text, image, link, date, xSize, ySize }) => {
+const Card = ({ name, text, image, link, date, ...props }) => {
   return (
-    <a href={link} className="block">
+    <a href={link} className={`block ${props.className}`}>
       <div
-        className={`w-[${xSize}] h-[${ySize}] bg-black shadow-md rounded-lg overflow-hidden border border-white transform transition-all duration-200 hover:scale-105 relative group`}
+        className={`w-full h-auto bg-black shadow-md rounded-lg overflow-hidden transform transition-all duration-200 hover:scale-105 relative group`}
+        style={{ aspectRatio: "16/9" }}
       >
         <div
           className="absolute inset-0 bg-cover bg-center transform transition-all duration-200 opacity-50 hover:opacity-35 hover:scale-110 z-0"
