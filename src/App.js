@@ -22,11 +22,13 @@ function App() {
     <Router>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <MainNavbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-        </Routes>
+        <div className="background h-screen">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
