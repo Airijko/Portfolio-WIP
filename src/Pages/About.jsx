@@ -1,16 +1,16 @@
 import AirijkoBanner from "../assets/images/AirijkoBanner.png";
 import Aatrox_pixel from "../assets/images/Aatrox_pixel.gif";
 import SocialIcons from "../constants/SocialIcons";
+import Aatrox_Wallpaper from "../assets/images/Aatrox_Wallpaper.jpg";
 
 const About = () => {
   return (
-    <section className="grid grid-cols-3 items-center pt-12 h-[600px]">
-      <div className="flex flex-col items-center p-12">
-        <img src={Aatrox_pixel} alt="HomeImage" className="h-[250px]" />
+    <section className="grid grid-cols-3 pt-12 h-[600px]">
+      <div className="flex flex-col items-center mt-12 p-12">
         <img
           src={AirijkoBanner}
           alt="HomeImage"
-          className="w-[400px] opacity-75 w-full mt-5"
+          className="w-[400px] opacity-75 w-full mt-5 border-white border-2 rounded-lg"
         />
         <div className="flex flex-row items-center justify-between w-full mt-2">
           <span className="font-quicksand text-gray-400">
@@ -28,6 +28,7 @@ const About = () => {
             </a>
           </div>
         </div>
+        <img src={Aatrox_pixel} alt="HomeImage" className="w-[350px] mt-5" />
       </div>
       <div className="flex flex-col items-center">
         <h2 className="font-quicksand text-3xl font-bold uppercase">
@@ -80,6 +81,11 @@ const About = () => {
               "ouch" in Tagalog.
             </span>
           </p>
+          <img
+            src={Aatrox_Wallpaper}
+            alt="HomeImage"
+            className="w-full opacity-75 mt-5 rounded-lg"
+          />
         </div>
       </div>
     </section>
