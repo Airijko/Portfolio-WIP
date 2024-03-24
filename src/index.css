@@ -43,3 +43,26 @@
     @apply font-sans bg-n-8 text-n-1 text-base;
   }
 }
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  opacity: 0;
+}
+
+.group:hover .slide-in {
+  transform: translateX(0);
+  opacity: 1;
+}
