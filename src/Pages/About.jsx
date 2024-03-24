@@ -1,19 +1,33 @@
 import AirijkoBanner from "../assets/images/AirijkoBanner.png";
 import Aatrox_pixel from "../assets/images/Aatrox_pixel.gif";
+import SocialIcons from "../constants/SocialIcons";
 
 const About = () => {
   return (
     <section className="grid grid-cols-3 items-center pt-12 h-[600px]">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center p-12">
         <img src={Aatrox_pixel} alt="HomeImage" className="h-[250px]" />
         <img
           src={AirijkoBanner}
           alt="HomeImage"
-          className="w-[400px] opacity-75 mt-5"
+          className="w-[400px] opacity-75 w-full mt-5"
         />
-        <span className="font-quicksand text-gray-600 mt-2">
-          | A for fun content creator |
-        </span>
+        <div className="flex flex-row items-center justify-between w-full mt-2">
+          <span className="font-quicksand text-gray-400">
+            ▣ A content creator for fun
+          </span>
+          <div className="flex flex-row gap-2">
+            <a href="https://www.youtube.com/@Airijko">
+              <SocialIcons name="youtube" />
+            </a>
+            <a href="https://www.twitch.tv/airijko">
+              <SocialIcons name="twitch" />
+            </a>
+            <a href="https://www.tiktok.com/@airijko">
+              <SocialIcons name="tiktok" />
+            </a>
+          </div>
+        </div>
       </div>
       <div className="flex flex-col items-center">
         <h2 className="font-quicksand text-3xl font-bold uppercase">
