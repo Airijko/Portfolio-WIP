@@ -29,8 +29,11 @@ const Portfolio = () => {
         </div>
         <div className="flex flex-col col-span-2">
           <div className="bg-green-500 w-full"> col two</div>
-          <div className="flex flex-row bg-red-500 w-full gap-4 overflow-x-auto whitespace-nowrap">
-            <Card2 title="test" tag={["tag1", "tag2", "tag3"]} />
+          <div className="flex flex-row bg-red-500 w-full overflow-x-auto whitespace-nowrap">
+            <Card2 title="test1" tag={["tag1", "tag2", "tag3"]} />
+            <Card2 title="test2" tag={["tag1", "tag2", "tag3"]} />
+            <Card2 title="test3" tag={["tag1", "tag2", "tag3"]} />
+            <Card2 title="test4" tag={["tag1", "tag2", "tag3"]} />
           </div>
         </div>
       </div>
