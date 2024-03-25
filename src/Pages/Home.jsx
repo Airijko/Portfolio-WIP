@@ -18,7 +18,7 @@ const Home = () => {
             className="w-[400px] h-[400px] opacity-75"
           />
         </div>
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center pt-8 md:pt-0">
           <div className="w-[400px]">
             <h1 className="font-quicksand uppercase whitespace-nowrap">
               <span className="text text-gray-600">━ Introduction</span>

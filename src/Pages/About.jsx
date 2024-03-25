@@ -58,7 +58,7 @@ const About = () => {
               </span>
             </p>
           </div>
-          <div className="flex flex-col md:pl-8 md:pr-8">
+          <div className="flex flex-col md:pl-8 md:pr-8 md:pt-0 pt-8">
             <div>
               <h2 className="font-quicksand text-3xl font-quicksand font-bold uppercase">
                 Social Brand

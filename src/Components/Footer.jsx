@@ -1,15 +1,18 @@
 const Footer = () => {
   return (
     <footer className="h-64 p-12 border-t border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm">
-      <div className="grid grid-cols-3  max-w-screen-xl text-blue-100 mx-auto">
-        <div className="h-full flex flex-col">
-          <h1 className="font-quicksand text-3xl uppercase col-span-1">
-            Software Developer
-          </h1>
-          <p className="mt-auto">© Jonathan Jimena Jr.</p>
-          <p>2024</p>
+      <div className="md:grid md:grid-cols-2  max-w-screen-xl text-blue-100 mx-auto">
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center md:items-start">
+            <h1 className="font-quicksand text-3xl uppercase col-span-1">
+              Software Developer
+            </h1>
+            <p className="mt-auto">© Jonathan Jimena Jr.</p>
+            <p>2024</p>
+          </div>
         </div>
-        <div className="flex flex-col footer items-center col-span-2">
+
+        <div className="flex flex-col items-center pt-4 md:pt-0">
           <h1 className="font-quicksand text-3xl uppercase mb-2">Contact</h1>
           <a href="mailto:jojojimena.jobs@gmail.com">
             <span>jojojimena.jobs@gmail.com</span>
