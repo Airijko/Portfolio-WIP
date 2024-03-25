@@ -30,8 +30,8 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section className="max-w-screen-xl mx-auto">
-      <div className="grid grid-cols-3 gap-6 pt-12">
+    <section className="max-w-screen-xl mx-auto pt-12 pb-12">
+      <div className="grid grid-cols-3 gap-6">
         <div className="flex flex-col col-span-1 bg-blue-100 p-2 text-center rounded-xl">
           <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
             <span className="text-4xl text-gray-600">Work Experience</span>
