@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-WIP/static/css/main.545b369c.css",
-    "main.js": "/Portfolio-WIP/static/js/main.74547d9a.js",
+    "main.js": "/Portfolio-WIP/static/js/main.4bbb7cb8.js",
     "static/js/453.2a82e7ac.chunk.js": "/Portfolio-WIP/static/js/453.2a82e7ac.chunk.js",
     "static/media/JojoHomeImage.png": "/Portfolio-WIP/static/media/JojoHomeImage.d281f277e7da05825668.png",
     "static/media/AirijkoBanner.png": "/Portfolio-WIP/static/media/AirijkoBanner.60bde3b677ee3323abbd.png",
@@ -15,11 +15,11 @@
     "static/media/Ruby.png": "/Portfolio-WIP/static/media/Ruby.8f7a797f51d144737892.png",
     "index.html": "/Portfolio-WIP/index.html",
     "main.545b369c.css.map": "/Portfolio-WIP/static/css/main.545b369c.css.map",
-    "main.74547d9a.js.map": "/Portfolio-WIP/static/js/main.74547d9a.js.map",
+    "main.4bbb7cb8.js.map": "/Portfolio-WIP/static/js/main.4bbb7cb8.js.map",
     "453.2a82e7ac.chunk.js.map": "/Portfolio-WIP/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.545b369c.css",
-    "static/js/main.74547d9a.js"
+    "static/js/main.4bbb7cb8.js"
   ]
 }
