@@ -36,7 +36,7 @@ const Portfolio = () => {
           <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
             <span className="text-4xl text-gray-600">Work Experience</span>
           </h1>
-          <div className="mt-2 w-full h-full bg-gray-600 rounded-xl p-2">
+          <div className="mt-2 w-full h-full bg-gray-600 rounded-lg">
             <Card
               name="Internship - Pixellriver"
               text={[
@@ -51,9 +51,14 @@ const Portfolio = () => {
               link="https://www.twitch.tv/airijko"
               date="June - August 2023"
             />
-            <p>
-              <span className="text-md text-white font-grotesk">
-                Internship
+            <p className="p-5 text-left">
+              <span className="text-sm text-white font-grotesk">
+                I interned with a team of 7 students: 4 developers, 2 project
+                managers, and 1 info security student. My role was developing
+                the web app and being the lead developer. I learned React and
+                Django quick, creating a Restful API with PostgreSQL. It was a
+                fun internship, which inspired me to build a NextJS app simply
+                out of my love for React.
               </span>
             </p>
           </div>
@@ -70,9 +75,9 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="w-full mt-5">
-        <div className="p-5 bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 rounded-lg">
+        <div className="p-5 bg-black bg-opacity-75 p-7 rounded-xl rounded-xl">
           <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
-            <span className="text-3xl text-orange-400">Projects</span>
+            <span className="text-3xl text-white">Projects</span>
           </h1>
           <div className="overflow-x-auto flex flex-row pt-3 bg-cover bg-center whitespace-nowrap gap-5">
             {cardData.map((card) => (
