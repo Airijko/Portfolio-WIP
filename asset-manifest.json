@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.56e898da.css",
-    "main.js": "/static/js/main.544aa9ba.js",
+    "main.js": "/static/js/main.cfdf0cb5.js",
     "static/js/453.2a82e7ac.chunk.js": "/static/js/453.2a82e7ac.chunk.js",
     "static/media/JojoHomeImage.png": "/static/media/JojoHomeImage.d281f277e7da05825668.png",
     "static/media/AirijkoBanner.png": "/static/media/AirijkoBanner.60bde3b677ee3323abbd.png",
@@ -15,11 +15,11 @@
     "static/media/Ruby.png": "/static/media/Ruby.8f7a797f51d144737892.png",
     "index.html": "/index.html",
     "main.56e898da.css.map": "/static/css/main.56e898da.css.map",
-    "main.544aa9ba.js.map": "/static/js/main.544aa9ba.js.map",
+    "main.cfdf0cb5.js.map": "/static/js/main.cfdf0cb5.js.map",
     "453.2a82e7ac.chunk.js.map": "/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e898da.css",
-    "static/js/main.544aa9ba.js"
+    "static/js/main.cfdf0cb5.js"
   ]
 }
