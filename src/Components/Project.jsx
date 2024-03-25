@@ -16,8 +16,8 @@ const Project = ({ title, image, link, description }) => {
   }
 
   return (
-    <div className="grid grid-cols-3 h-[450px]">
-      <div className="col-span-2 flex flex-col justify-between h-full">
+    <div className="grid grid-cols-3 h-[450px] gap-5">
+      <div className="col-span-2 flex flex-col justify-between h-full bg-gray-900 p-5 rounded-xl">
         <div className="flex flex-col">
           <h1 className="text font-bold font-sora text-4xl">{title}</h1>
           <div className="font-grotesk text-md w-4/5">
@@ -28,7 +28,7 @@ const Project = ({ title, image, link, description }) => {
       </div>
       <div className="col-span-1 flex flex-col">
         <div>
-          <img src={image} alt={title} />
+          <img src={image} alt={title} className="rounded-lg" />
         </div>
         <div className="text-sm font-code">
           <a

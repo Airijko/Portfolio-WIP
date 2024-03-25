@@ -47,9 +47,6 @@ export default {
       letterSpacing: {
         tagline: ".15em",
       },
-      boxShadow: {
-        "3xl": "5px 10px 15px rgba(0, 0, 0, 0.75)",
-      },
       spacing: {
         0.25: "0.0625rem",
         7.5: "1.875rem",

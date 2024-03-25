@@ -4,7 +4,7 @@ const Card = ({ name, text, image, link, date, ...props }) => {
   return (
     <a href={link} className={`block ${props.className}`}>
       <div
-        className={`w-full h-auto bg-black rounded-lg overflow-hidden transform transition-all duration-200 hover:scale-105 relative group shadow-3xl`}
+        className={`w-full h-auto bg-black rounded-lg overflow-hidden transform transition-all duration-200 hover:scale-105 relative group shadow-xl`}
         style={{ aspectRatio: "16/9" }}
       >
         <div
