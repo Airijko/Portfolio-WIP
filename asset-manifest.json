@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.56e898da.css",
-    "main.js": "/static/js/main.cfdf0cb5.js",
+    "main.css": "/static/css/main.4dcdc31a.css",
+    "main.js": "/static/js/main.5cf64911.js",
     "static/js/453.2a82e7ac.chunk.js": "/static/js/453.2a82e7ac.chunk.js",
     "static/media/JojoHomeImage.png": "/static/media/JojoHomeImage.d281f277e7da05825668.png",
     "static/media/AirijkoBanner.png": "/static/media/AirijkoBanner.60bde3b677ee3323abbd.png",
     "static/media/RedRiver.jpg": "/static/media/RedRiver.cfdc479ed6c7b3169ec3.jpg",
     "static/media/Logo.png": "/static/media/Logo.539cf6220e399855c4ac.png",
-    "static/media/LeagueofLegends.jpg": "/static/media/LeagueofLegends.0d31d0d55f6102639f61.jpg",
     "static/media/Background.jpg": "/static/media/Background.e0c24c2b94d555cabe59.jpg",
+    "static/media/LeagueofLegends.jpg": "/static/media/LeagueofLegends.1f06f982629b4ed512a9.jpg",
     "static/media/SoloLevelingLogo.jpg": "/static/media/SoloLevelingLogo.c236ca0f3e61dd3cfa72.jpg",
     "static/media/Aatrox_pixel.gif": "/static/media/Aatrox_pixel.94dd84c9e217f959f656.gif",
     "static/media/Python.png": "/static/media/Python.7953aba24ccb54eaf8f0.png",
-    "static/media/Ruby.png": "/static/media/Ruby.8f7a797f51d144737892.png",
+    "static/media/Ruby.png": "/static/media/Ruby.d32c1644b71c9f5355a1.png",
+    "static/media/NextJS.jpg": "/static/media/NextJS.624964e16ff9dc26b556.jpg",
     "index.html": "/index.html",
-    "main.56e898da.css.map": "/static/css/main.56e898da.css.map",
-    "main.cfdf0cb5.js.map": "/static/js/main.cfdf0cb5.js.map",
+    "main.4dcdc31a.css.map": "/static/css/main.4dcdc31a.css.map",
+    "main.5cf64911.js.map": "/static/js/main.5cf64911.js.map",
     "453.2a82e7ac.chunk.js.map": "/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56e898da.css",
-    "static/js/main.cfdf0cb5.js"
+    "static/css/main.4dcdc31a.css",
+    "static/js/main.5cf64911.js"
   ]
 }
