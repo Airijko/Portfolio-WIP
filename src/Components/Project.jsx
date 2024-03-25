@@ -9,7 +9,12 @@ const Project = ({ title, image, link, description }) => {
     return lists.map((item, index) => (
       <ul key={index} className="font-grotesk">
         {item.list.map((listItem, listIndex) => (
-          <li key={listIndex}>{listItem}</li>
+          <li
+            key={listIndex}
+            className="inline-block shadow-lg bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 mb-2"
+          >
+            {listItem}
+          </li>
         ))}
       </ul>
     ));
