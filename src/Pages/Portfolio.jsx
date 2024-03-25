@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 import Card from "../components/Card";
-import Card2 from "../components/Card2";
 import Project from "../components/Project";
 import { cardData } from "../constants/CardData";
 import CardSlider from "../components/CardSlider";
@@ -69,7 +68,7 @@ const Portfolio = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col col-span-2 cardBackground p-7 md:border md:rounded-xl">
+        <div className="flex flex-col col-span-2 cardBackground p-7 md:border md:border-gray-700 md:rounded-xl">
           {selectedCard && (
             <Project
               title={selectedCard}
