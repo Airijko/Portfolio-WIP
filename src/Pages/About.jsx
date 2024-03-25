@@ -50,8 +50,8 @@ const About = () => {
               I volunteer at my church regularly as a teacher’s assistant and
               will sometimes teach myself whenever needed. One of my biggest
               goals is to create and run a social platform for Christians and
-              Churches. As of writing this in early 2024, it has been on a halt.
-              I realized you need to really think about design and not just push
+              Churches. As of writing this in early 2024, it has paused. I
+              realized you need to really think about design and not just push
               code. I hope to gain skills in engineering/design so I can come
               back to this project.
             </span>

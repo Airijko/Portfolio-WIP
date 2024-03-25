@@ -42,11 +42,13 @@ export default {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
-        bebas: ['"Bebas Neue"', "cursive"],
         quicksand: ["Quicksand", "sans-serif"],
       },
       letterSpacing: {
         tagline: ".15em",
+      },
+      boxShadow: {
+        "3xl": "5px 10px 15px rgba(0, 0, 0, 0.75)",
       },
       spacing: {
         0.25: "0.0625rem",
