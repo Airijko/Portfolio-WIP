@@ -22,6 +22,7 @@
 
 .background {
   position: relative;
+  height: 100%;
 }
 
 .background::before {

@@ -4,7 +4,7 @@ import SocialIcons from "../constants/SocialIcons";
 
 const Home = () => {
   return (
-    <section className="background h-full pt-12 pb-12">
+    <section className="background pt-12 pb-12">
       <div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 grid-cols-1 items-center">
         <div className="flex flex-col items-center">
           <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
