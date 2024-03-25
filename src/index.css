@@ -37,6 +37,11 @@
   z-index: -1;
 }
 
+.cardBackground {
+  position: relative;
+  background-color: rgb(23, 23, 23);
+}
+
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;

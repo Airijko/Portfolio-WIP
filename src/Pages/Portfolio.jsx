@@ -30,13 +30,15 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section className="max-w-screen-xl mx-auto pt-12 pb-12">
-      <div className="grid grid-cols-3 gap-6">
-        <div className="flex flex-col col-span-1 bg-blue-100 p-2 text-center rounded-xl">
+    <section className="max-w-screen-xl mx-auto md:pt-12 md:pb-12">
+      <div className="md:grid md:grid-cols-3 gap-6">
+        <div className="flex flex-col col-span-1 cardBackground md:bg-blue-100 p-2 text-center md:rounded-xl">
           <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
-            <span className="text-4xl text-gray-600">Work Experience</span>
+            <span className="text-3xl md:text-2xl lg:text-3xl xl:text-4xl md:text-gray-600">
+              Work Experience
+            </span>
           </h1>
-          <div className="mt-2 w-full h-full bg-gray-600 rounded-lg">
+          <div className="mt-2 w-full h-full cardBackground rounded-lg">
             <Card
               name="Internship - Pixellriver"
               text={[
@@ -63,7 +65,7 @@ const Portfolio = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col col-span-2 bg-black bg-opacity-50 p-7 rounded-xl">
+        <div className="flex flex-col col-span-2 cardBackground p-7 md:border md:rounded-xl">
           {selectedCard && (
             <Project
               title={selectedCard}
@@ -74,7 +76,7 @@ const Portfolio = () => {
           )}
         </div>
       </div>
-      <div className="w-full mt-5">
+      <div className="w-full md:mt-5">
         <div className="p-5 bg-black bg-opacity-75 p-7 rounded-xl rounded-xl">
           <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
             <span className="text-3xl text-white">Projects</span>

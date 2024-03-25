@@ -1,3 +1,5 @@
+import { IoMail } from "react-icons/io5";
+
 const Footer = () => {
   return (
     <footer className="h-64 p-12 border-t border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm">
@@ -15,7 +17,10 @@ const Footer = () => {
         <div className="flex flex-col items-center pt-4 md:pt-0">
           <h1 className="font-quicksand text-3xl uppercase mb-2">Contact</h1>
           <a href="mailto:jojojimena.jobs@gmail.com">
-            <span>jojojimena.jobs@gmail.com</span>
+            <div className="flex flex-row gap-2">
+              <IoMail size={24} />
+              <span>jojojimena.jobs@gmail.com</span>
+            </div>
           </a>
           <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
             <div className="flex flex-row gap-2">

@@ -22,10 +22,10 @@ const Project = ({ title, image, link, description }) => {
 
   return (
     <div className="grid grid-cols-3 h-full gap-5">
-      <div className="col-span-2 flex flex-col justify-between h-full bg-gray-900 p-5 rounded-xl">
+      <div className="col-span-2 flex flex-col justify-between h-full border-l-8 border-green-500 pt-5 pb-5 pl-8 md:pr-5 lg:pr-12">
         <div className="flex flex-col">
           <h1 className="text font-bold font-sora text-4xl">{title}</h1>
-          <div className="font-grotesk text-md w-4/5">
+          <div className="font-grotesk text-md">
             {renderParagraphs(description)}
           </div>
         </div>

@@ -7,9 +7,9 @@ const Home = () => {
     <section className="background pt-12 pb-12">
       <div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 grid-cols-1 items-center">
         <div className="flex flex-col items-center">
-          <h1 className="font-quicksand font-bold uppercase whitespace-nowrap">
-            <span className="text-5xl text-red-500">Jonathan</span>
-            <span className="text-5xl"> Jimena Jr.</span>
+          <h1 className="font-quicksand font-bold uppercase whitespace-nowrap text-4xl md:text-3xl lg:text-4xl xl:text-5xl">
+            <span className="text-red-500">Jonathan</span>
+            <span> Jimena Jr.</span>
           </h1>
           <p className="mb-5">Leveling Up One Algorithm at a Time</p>
           <img
