@@ -12,12 +12,14 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedLink, setSelectedLink] = useState([]);
   const [description, setDescription] = useState([]);
+  const [downloadLink, setDownloadLink] = useState(null);
 
   const handleCardClick = (title, image, link, description) => () => {
     setSelectedCard(title);
     setSelectedImage(image);
     setSelectedLink(link);
     setDescription(description);
+    setDownloadLink(link);
   };
 
   useEffect(() => {
@@ -27,6 +29,7 @@ const Portfolio = () => {
     setSelectedImage(firstCard.image);
     setSelectedLink(firstCard.link);
     setDescription(firstCard.description);
+    setDownloadLink(firstCard.download);
   }, []);
 
   return (
@@ -72,6 +75,7 @@ const Portfolio = () => {
               image={selectedImage}
               link={selectedLink}
               description={description}
+              downloadLink={downloadLink}
             />
           )}
         </div>

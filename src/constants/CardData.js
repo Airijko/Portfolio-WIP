@@ -24,6 +24,7 @@ export const cardData = [
         ],
       },
     ],
+    download: "",
   },
   {
     title: "NextJS Blog",
@@ -46,6 +47,7 @@ export const cardData = [
         ],
       },
     ],
+    download: "",
   },
   {
     title: "Project Solo Leveling",
@@ -65,6 +67,7 @@ export const cardData = [
         ],
       },
     ],
+    download: "https://modrinth.com/plugin/endless-skills",
   },
   {
     title: "Weather Application",
@@ -85,6 +88,8 @@ export const cardData = [
         ],
       },
     ],
+    download:
+      "https://github.com/Airijko/Python-Weather-App/releases/download/Main/weather_processor.exe",
   },
   {
     title: "Red League Website",
@@ -105,5 +110,6 @@ export const cardData = [
         ],
       },
     ],
+    download: "",
   },
 ];

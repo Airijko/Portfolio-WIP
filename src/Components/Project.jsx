@@ -1,4 +1,4 @@
-const Project = ({ title, image, link, description }) => {
+const Project = ({ title, image, link, description, downloadLink }) => {
   function renderParagraphs(description) {
     const paragraphs = description.filter((item) => !item.list);
     return paragraphs.map((item, index) => <p key={index}>{item}</p>);
@@ -43,8 +43,17 @@ const Project = ({ title, image, link, description }) => {
             Source Code
           </a>
         </div>
-        {link[1] && (
-          <div className="mt-auto ml-auto">
+        <div className="flex flex-col mt-auto ml-auto">
+          {downloadLink ? (
+            <a
+              type="button"
+              href={downloadLink}
+              class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+            >
+              Download
+            </a>
+          ) : null}
+          {link[1] && (
             <a
               type="button"
               href={link[1]}
@@ -52,8 +61,8 @@ const Project = ({ title, image, link, description }) => {
             >
               Visit Website
             </a>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

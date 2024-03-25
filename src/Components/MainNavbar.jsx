@@ -7,8 +7,8 @@ const MainNavbar = () => {
       <div className="flex items-center px-5 md:px-7.5 xl:px-10 max-md:py-4">
         <a className="flex items-center block w-[12rem] xl:mr-8" href="/">
           <img src={Logo} alt="Logo" width={40} height={40} />
-          <span className="hidden md:block font-code text-2xl uppercase md:text-md md:font-bold px-4">
-            Airijko
+          <span className="hidden md:block font-code text-2xl uppercase md:text-md md:font-bold px-4 whitespace-nowrap">
+            Jonathan Jimena Jr.
           </span>
         </a>
 
