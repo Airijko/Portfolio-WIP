@@ -22,7 +22,7 @@ const MainNavbar = () => {
             openNavigation ? "flex" : "hidden"
           } fixed inset-0 bg-n-8 md:static md:flex md:mx-auto md:bg-transparent w-full`}
         >
-          <div className="relative z-2 flex flex-col items-center m-auto md:flex-row h-[450px]">
+          <div className="relative z-2 flex flex-col items-center m-auto md:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
