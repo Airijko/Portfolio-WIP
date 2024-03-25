@@ -33,7 +33,7 @@ const CardSlider = ({ cardData, selectedCard, handleCardClick }) => {
   return (
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container gap-8 p-3">
+        <div className="embla__container">
           {cardData.map((card) => (
             <Card2
               key={card.title}
