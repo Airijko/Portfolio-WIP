@@ -42,6 +42,19 @@
   background-color: rgb(23, 23, 23);
 }
 
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
