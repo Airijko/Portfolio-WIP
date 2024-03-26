@@ -8,7 +8,7 @@ const MainNavbar = () => {
   const [openNavigation, setOpenNavigation] = useState(false);
 
   return (
-    <div className="sticky top-0 left-0 w-full z-50 border-b border-n-6 md:bg-n-8/90 md:backdrop-blur-sm">
+    <div className="sticky top-0 left-0 w-full z-50 border-b border-n-6 bg-n-8/90 md:backdrop-blur-sm">
       <div className="flex items-center px-5 md:px-7.5 xl:px-10 max-md:py-4">
         <a className="flex items-center block w-[12rem] xl:mr-8" href="/">
           <img src={Logo} alt="Logo" width={40} height={40} />
@@ -28,6 +28,7 @@ const MainNavbar = () => {
                 key={item.id}
                 href={`#${item.url}`}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 px-6 py-6 md:py-8 md:-mr-0.25 md:text-xs md:font-semibold`}
+                onClick={() => setOpenNavigation(false)}
               >
                 {item.title}
               </a>
