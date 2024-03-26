@@ -14,13 +14,14 @@ const Portfolio = () => {
   const [description, setDescription] = useState([]);
   const [downloadLink, setDownloadLink] = useState(null);
 
-  const handleCardClick = (title, image, link, description) => () => {
-    setSelectedCard(title);
-    setSelectedImage(image);
-    setSelectedLink(link);
-    setDescription(description);
-    setDownloadLink(link);
-  };
+  const handleCardClick =
+    (title, image, link, description, downloadLink) => () => {
+      setSelectedCard(title);
+      setSelectedImage(image);
+      setSelectedLink(link);
+      setDescription(description);
+      setDownloadLink(downloadLink);
+    };
 
   useEffect(() => {
     const firstCard = cardData[0];
