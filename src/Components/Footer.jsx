@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="md:grid md:grid-cols-2  max-w-screen-xl text-blue-100 mx-auto">
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-center md:items-start">
-            <h1 className="font-quicksand text-3xl uppercase col-span-1">
+            <h1 className="font-quicksand text-2xl md:text:3xl uppercase col-span-1 whitespace-nowrap">
               Software Developer
             </h1>
             <p className="mt-auto">© Jonathan Jimena Jr.</p>
@@ -15,7 +15,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-center pt-4 md:pt-0">
-          <h1 className="font-quicksand text-3xl uppercase mb-2">Contact</h1>
+          <h1 className="font-quicksand text-2xl md:text:3xl uppercase mb-2">
+            Contact
+          </h1>
           <a href="mailto:jojojimena.jobs@gmail.com">
             <div className="flex flex-row gap-2">
               <IoMail size={24} />
