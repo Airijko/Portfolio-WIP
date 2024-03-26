@@ -9,23 +9,22 @@ const Footer = () => {
             <h1 className="font-quicksand text-2xl md:text:3xl uppercase col-span-1 whitespace-nowrap">
               Software Developer
             </h1>
-            <p className="mt-auto">© Jonathan Jimena Jr.</p>
-            <p>2024</p>
+            <p className="mt-auto">© 2024 Jonathan Jimena Jr.</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center pt-4 md:pt-0">
-          <h1 className="font-quicksand text-2xl md:text:3xl uppercase mb-2">
+          <h1 className="font-quicksand text-2xl md:text:3xl uppercase">
             Contact
           </h1>
           <a href="mailto:jojojimena.jobs@gmail.com">
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-2 hover:text-color-1">
               <IoMail size={24} />
               <span>jojojimena.jobs@gmail.com</span>
             </div>
           </a>
           <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-2 hover:text-color-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
