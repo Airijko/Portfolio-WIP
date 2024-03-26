@@ -29,7 +29,7 @@ const Project = ({ title, image, link, description, downloadLink }) => {
             {renderParagraphs(description)}
           </div>
         </div>
-        {renderLists(description)}
+        <div className="md:pt-0 pt-4">{renderLists(description)}</div>
       </div>
       <div className="col-span-1 flex flex-col">
         <div>
