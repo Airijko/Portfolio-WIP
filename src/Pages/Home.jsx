@@ -33,8 +33,9 @@ const Home = () => {
             </h2>
             <p className="flex flex-col text font-grotesk mt-2">
               <span>
-                I'm a Business Information Technology Graduate at managing
-                servers and database, UI/UX design, and networking.
+                I'm a Business Information Technology Graduate at RRC. I love
+                software development, managing servers and database, UI/UX
+                design, and networking.
               </span>
             </p>
 
