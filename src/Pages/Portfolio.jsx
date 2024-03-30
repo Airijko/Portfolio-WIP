@@ -54,7 +54,7 @@ const Portfolio = () => {
                 "Material UI",
               ]}
               image={RedRiver}
-              link="https://www.twitch.tv/airijko"
+              link="https://www.rrc.ca/ace/"
               date="June - August 2023"
             />
             <p className="p-5 text-left">
